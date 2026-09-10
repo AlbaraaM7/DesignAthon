@@ -131,7 +131,7 @@ const PortalSection = () => {
         {/* Portal Image */}
         <img
           ref={portalImageRef}
-          src="/assets/orbit-portal.jpeg"
+          src={`${import.meta.env.BASE_URL}assets/orbit-portal.jpeg`}
           alt="Orbit Stargate Portal"
           className="absolute inset-0 w-full h-full object-cover select-none pointer-events-none scale-125 transform-gpu"
         />
